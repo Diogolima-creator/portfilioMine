@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background: url(../../images/12.png);
+    background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/68937518-29f2-4335-824d-33d67b03e5cd);
     background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
@@ -45,13 +45,13 @@ export const Books = styled.div(( { changeBooks } ) => (`
 
     #about{
         display:${changeBooks ? 'flex' : 'none'};
-        background: url(../../images/livro1.png) no-repeat;
+        background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/7e9f426b-0417-4efa-ae79-eb85ed6f9667) no-repeat;
         background-size: 100% 100%;
     }
 
     #techs{
         display:${changeBooks ? 'none' : 'flex'};
-        background: url(../../images/livro2.png) no-repeat;
+        background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/6a40af1f-762e-40b4-bd3d-c80748fa12fc) no-repeat;
         background-size: 100% 100%;
 
         img{

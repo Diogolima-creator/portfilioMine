@@ -56,8 +56,8 @@ export const Header = () => {
 
   return (
     <H.Container ref={ref} id="Header" onMouseMove={handleMouseMove}>
-      <H.Span inView={!inView} className="imgUp" onClick={()=>scrollToElement(0)}><img src="../../images/diamondSword.png"></img></H.Span>
-      <H.Span inView={true} className="imgDown" onClick={()=>scrollToElement(posID+1)}><img src="../../images/diamondSword.png"></img></H.Span>
+      <H.Span inView={!inView} className="imgUp" onClick={()=>scrollToElement(0)}><img src="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/281ab7c2-0bd7-4d0f-b777-f9fa7be8c8fd"></img></H.Span>
+      <H.Span inView={true} className="imgDown" onClick={()=>scrollToElement(posID+1)}><img src="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/281ab7c2-0bd7-4d0f-b777-f9fa7be8c8fd"></img></H.Span>
             <H.HeaderTop>
                 <H.Logo>
         <h1>DL</h1>
@@ -65,7 +65,7 @@ export const Header = () => {
                 <H.Menu>
                 {
                                 items.map((item, key) => (
-                                    <H.Item key={key}><a onClick={()=>setPosID(key+1)} href={item.ref}>{item.title}</a> <img src='../../images/bloco.png'></img></H.Item>
+                                    <H.Item key={key}><a onClick={()=>setPosID(key+1)} href={item.ref}>{item.title}</a> <img src='https://github.com/Diogolima-creator/portfilioMine/assets/62246037/0e398d96-ba57-441e-b608-819d8d25eaf6'></img></H.Item>
                                 ))
                 }
                 <H.Item style={{ marginRight:'5px' }}><a href='https://github.com/Diogolima-creator' target='_blank' rel="noreferrer" ><GitHubIcon /></a></H.Item>
@@ -84,7 +84,7 @@ export const Header = () => {
 
                 <ReactSkinview3d
                     options={options}
-                    skinUrl="../../images/skin.png"
+                    skinUrl="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/efcd8bdb-a846-4dc9-b13f-036c460c2694"
                     height="500"
                     width="500"
                 />

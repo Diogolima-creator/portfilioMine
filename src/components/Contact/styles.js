@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background: url(../../images/3.png);
+    background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/0e0db0d2-0c18-4a18-87a5-abf6c5abc778);
     background-size: cover;
     width: 100vw; 
     height: 100vh;

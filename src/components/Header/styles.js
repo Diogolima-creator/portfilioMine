@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width:100%;
   height:110vh;
-  background: url(../../images/2.png);
+  background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/21bb7a65-c70d-414d-b0f4-434f4668b9b9);
   background-size: 100% 100%;
   display:flex;
   flex-direction:column;

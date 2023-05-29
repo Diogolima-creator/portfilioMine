@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background: url(../../images/5.png);
+    background: url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/683cc742-54f2-4d71-94fe-df053f3be715);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -65,7 +65,7 @@ export const Hotbar = styled.div(({opacity}) => (`
   height:13%;
   justify-content:start;
   align-items:center;
-  background:url(../../images/hotbar.png) no-repeat;
+  background:url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/b6aaa359-97a3-41d7-a181-ae9961329fa7) no-repeat;
   background-size:100% 100%;
   opacity:${opacity ? '1' : '0'};
   transition: .3s;
@@ -86,7 +86,7 @@ export const HotBarChoice = styled.div(({opacity}) => (`
     
 
     cursor:pointer;
-    background:${opacity === '1' ? 'url(../../images/hotChoice.png) no-repeat' : 'transparent'};
+    background:${opacity === '1' ? 'url(https://github.com/Diogolima-creator/portfilioMine/assets/62246037/e588ff85-6cb7-4c37-b9bb-9f1009a41fc0) no-repeat' : 'transparent'};
     background-size: 100% 100%;
 
     img{
