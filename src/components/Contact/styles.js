@@ -12,7 +12,6 @@ export const Container = styled.div`
     overflow-y:hidden;      
 `;
 
-
 export const TitleSkin = styled.div(({animation}) => (`
     display:${animation ? 'flex' : 'none' };
     align-items:center;
@@ -28,6 +27,7 @@ export const TitleContact = styled.h1`
 
 export const Title = styled.h1`
   color:white;
+  z-index:1;
 `;
 
 export const ContactAndPhrase = styled.div`
@@ -60,14 +60,14 @@ export const Contact = styled.div`
    width:30%;
    min-height:60%;
    max-height:100%;
-   z-index:1;
-   background: transparent;
-   background-size: 100% 100%;
+   background-color: rgba(0,0,0, 0.7);
+   border-radius:15px;
    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    display:flex;
    flex-direction:column;   
    align-items:center;
 `;
+
 
 export const SocialIcons = styled.div`
    display:flex;
