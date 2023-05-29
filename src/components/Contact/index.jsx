@@ -42,8 +42,8 @@ export const Contact = () => {
   }
   )
 
- const options2 = {
-    enableControls: true,
+ const options = {
+    enableControls: false,
     animation: createFunction
   }
 
@@ -62,7 +62,7 @@ export const Contact = () => {
         <C.ContactAndPhrase>
           <C.Phrase>
           <ReactSkinview3d
-                    options={options2}
+                    options={options}
                     skinUrl="../../skin.png"
                     height="500"
                     width="500"
