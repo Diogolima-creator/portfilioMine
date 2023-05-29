@@ -24,10 +24,11 @@ export const Header = () => {
   
           player.skin.head.rotation.x = (y*0.000990);
           player.skin.head.rotation.y = x*0.000009;
-
-          player.skin.rightArm.rotation.x = x < 900 ? (1.9*Math.pow(Math.E, -0.000000008*Math.pow(x,0.003*x))) - 1.78 : (y * 0.0015 - 1.88)
-          player.skin.leftArm.rotation.x = x < 900 ? (1.9*Math.pow(Math.E, -0.000000008*Math.pow(x,0.003*x))) - 1.78 : (y * 0.0015 - 1.88)
-
+          const mult = Math.pow(x,0.0053*x)
+          const mult2 = -1/100000000000000
+          console.log((1.9*Math.pow(Math.E, mult2*mult)) - 1.78)
+          player.skin.rightArm.rotation.x = x < 900 ? (1.9*Math.pow(Math.E, mult2*mult)) - 1.78 : (y * 0.0015 - 1.78)
+          player.skin.leftArm.rotation.x = x < 900 ? (1.9*Math.pow(Math.E, mult2*mult)) - 1.78 : (y * 0.0015 - 1.78)
       }
       )
 
