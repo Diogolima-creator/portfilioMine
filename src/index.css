@@ -1,0 +1,16 @@
+html{
+  scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: "minecraft";
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+  font-family: "minecraft";
+  src: url("../fonts/minecraft.otf") format("openType");
+}
