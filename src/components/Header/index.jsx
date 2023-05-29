@@ -84,7 +84,7 @@ export const Header = () => {
 
                 <ReactSkinview3d
                     options={options}
-                    skinUrl="assets/skins.png"
+                    skinUrl="https://vercel.com/api/v6/deployments/dpl_AgpbGsC9dm9YHozSdbpTpH7aPbgP/files/outputs?file=skin.png"
                     height="500"
                     width="500"
                 />
