@@ -84,7 +84,7 @@ export const Header = () => {
 
                 <ReactSkinview3d
                     options={options}
-                    skinUrl="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/efcd8bdb-a846-4dc9-b13f-036c460c2694"
+                    skinUrl="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/4df4addf-253b-4837-ac0c-33c2f0ab7974"
                     height="500"
                     width="500"
                 />
