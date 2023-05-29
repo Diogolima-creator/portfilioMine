@@ -84,7 +84,7 @@ export const Header = () => {
 
                 <ReactSkinview3d
                     options={options}
-                    skinUrl="https://user-images.githubusercontent.com/62246037/241800317-efcd8bdb-a846-4dc9-b13f-036c460c2694.png"
+                    skinUrl="assets/skins.png"
                     height="500"
                     width="500"
                 />
