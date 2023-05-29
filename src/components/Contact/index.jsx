@@ -63,7 +63,7 @@ export const Contact = () => {
           <C.Phrase>
           <ReactSkinview3d
                     options={options2}
-                    skinUrl="https://github.com/Diogolima-creator/portfilioMine/assets/62246037/4df4addf-253b-4837-ac0c-33c2f0ab7974"
+                    skinUrl="../../skin.png"
                     height="500"
                     width="500"
                 />
